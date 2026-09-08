@@ -1,0 +1,6 @@
+﻿ID,Requisito,Descripcion,Motivo,Estado,Responsable,Criterio_de_cierre
+CHG-001,"RF-002; RN-01","Validar documento único antes de guardar","Evitar duplicidad de estudiantes","Aprobado","Análisis y desarrollo","Rechaza repetidos y conserva mensaje"
+CHG-002,"RF-018; RN-04","Permitir exceso de vacantes solo con autorización","Resolver excepciones con control","En revisión","Dirección académica","Exige motivo, usuario y autorización"
+CHG-003,"RF-031; RNF-005","Bloquear cuenta tras cinco intentos fallidos","Reforzar seguridad de cuentas","En desarrollo","Administradora","Bloquea y audita el evento"
+CHG-004,"RF-035","Filtrar reportes por año, grado y estado","Revisar periodos específicos","En pruebas","Dirección académica","Filtra e imprime sin alterar datos"
+CHG-005,"RF-036; RNF-014","Ampliar auditoría con operación, usuario, fecha y registro","Demostrar quién modificó información","Implementado","Administradora","Historial consultable con todos los datos"
