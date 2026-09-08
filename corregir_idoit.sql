@@ -1,0 +1,7 @@
+USE idoit_data;
+UPDATE isys_obj SET isys_obj__title='LAB2-CHG-001 | Documento unico', isys_obj__description='RF-002 / RN-01. Estado: Aprobado. Responsable: Analisis y desarrollo. Motivo: evitar duplicidad. Cierre: rechazar documentos repetidos.' WHERE isys_obj__id=26;
+UPDATE isys_obj SET isys_obj__title='LAB2-CHG-002 | Exceso de vacantes', isys_obj__description='RF-018 / RN-04. Estado: En revision. Responsable: Direccion academica. Motivo: resolver excepciones con control. Cierre: exigir motivo, usuario y autorizacion.' WHERE isys_obj__id=27;
+UPDATE isys_obj SET isys_obj__title='LAB2-CHG-003 | Bloqueo de cuenta', isys_obj__description='RF-031 / RNF-005. Estado: En desarrollo. Responsable: Administradora. Motivo: reforzar seguridad. Cierre: bloquear al quinto intento y auditar.' WHERE isys_obj__id=28;
+UPDATE isys_obj SET isys_obj__title='LAB2-CHG-004 | Filtros de reportes', isys_obj__description='RF-035. Estado: En pruebas. Responsable: Direccion academica. Motivo: revisar periodos. Cierre: filtrar e imprimir sin alterar datos.' WHERE isys_obj__id=29;
+UPDATE isys_obj SET isys_obj__title='LAB2-CHG-005 | Auditoria ampliada', isys_obj__description='RF-036 / RNF-014. Estado: Implementado. Responsable: Administradora. Motivo: demostrar quien modifico informacion. Cierre: historial consultable.' WHERE isys_obj__id=30;
+SELECT isys_obj__id,isys_obj__title FROM isys_obj WHERE isys_obj__title LIKE 'LAB2-CHG-%' ORDER BY isys_obj__id;
